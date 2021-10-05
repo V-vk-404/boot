@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    color:#222;
+}
+
+.navbar{
+    padding: .4rem;
+}
+
+.navbar-nav li{
+    padding-right: 20px;
+    
+}
+.nav-link{
+    font-size: 1.1em !important;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 98%;
+}
+
+.carousel-caption 
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-caption h3{
+    font-size:56px;
+    text-transform: uppercase;
+    text-shadow: 2px 3px 10px green;
+}
+
+.jambotron{
+    padding:20px;
+}
+
+.padding{
+    padding-bottom:2rem;
+}
+.welcome{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.wwelcome hr{
+    border-top: 2px solid #b4b4b4;
+    width: 92%;
+    margin-top: 0.3rem;
+    margin-bottom:1rem;
+}
+.fa-html5{
+    color: lightseagreen;
+}
+.fa-bold{
+    color: #563d7c;
+}
+.fa-css3{
+    color: #2163af;
+}
+.fa-html5, .fa-bold, .fa-css3{
+    font-size: 4rem;
+    margin: 1rem;
+}
+.tager p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.page img{
+    width: 92%;
+    height: 99%;
+}
+.social a{
+    font-size: 3.6em;
+    padding: 1.2rem;
+}
+.fa-github{
+    color:black;
+}
+
+.fa-instagram{
+    color:purple
+}
+.fa-youtube-square{
+    color:red;
+}
+
+.fa-instagram:hover, 
+.fa-youtube-square:hover, 
+.fa-github:hover,
+.fa-facebook-official:hover,
+.fa-linkedin-square:hover{
+    color:#d5d5d5;
+}
+
+footer{
+    background-color: grey;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+hr.light{
+    border-top:4px solid #d5d5d5;
+    width: 97%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
